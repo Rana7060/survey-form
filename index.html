@@ -36,15 +36,52 @@
               <option>Other</option>
             </select>
           </div>
-          <form>
-            <p>Would you recommend freeCodeCamp to a friend?</p>
-            <input type="radio" id="html" />
-              <label for="html">HTML</label><br />
-            <input type="radio" id="css" />
-              <label for="css">CSS</label><br />
-            <input type="radio" id="javascript" />
-              <label for="javascript">JavaScript</label>
-          </form>
+
+          <p>Would you recommend freeCodeCamp to a friend?</p>
+          <input type="radio" id="def" />
+            <span for="def">Defenitely</span><br />
+          <input type="radio" id="may" />
+            <span for="may">Maybe</span><br />
+          <input type="radio" id="not" />
+            <span for="not">Not sure</span>
+
+          <div class="box">
+            <span for="role" class="thespan"
+              >What is your favorite feature of freeCodeCamp?</span
+            >
+
+            <select name="role" id="role">
+              <option>Challenges</option>
+              <option>Projects</option>
+              <option>Open source</option>
+              <option>Community</option>
+            </select>
+          </div>
+          <div class="box">
+            <p>What would you like to see improved? (Check all that apply)</p>
+
+            <input type="checkbox" />
+            <span class="checkmark">Front-end Projects</span><br />
+            <input type="checkbox" />
+            <span class="checkmark">Back-end Projects</span><br />
+            <input type="checkbox" />
+            <span class="checkmark">Data Visualization</span><br />
+            <input type="checkbox" />
+            <span class="checkmark">Challenges</span><br />
+            <input type="checkbox" />
+            <span class="checkmark">Open Source Community</span><br />
+            <input type="checkbox" />
+            <span class="checkmark">Gitter help rooms</span><br />
+            <input type="checkbox" />
+            <span class="checkmark">Videos</span><br />
+            <input type="checkbox" />
+            <span class="checkmark">City Meetups</span><br />
+          </div>
+          <div class="box">
+            <p>Any comments or suggestions?</p>
+            <textarea></textarea>
+          </div>
+          <button>Submit</button>
         </form>
       </div>
     </div>

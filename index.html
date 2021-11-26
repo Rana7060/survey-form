@@ -1,0 +1,52 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Survey From</title>
+  </head>
+  <body>
+    <div class="" id="container">
+      <h1 id="title">Survey Form</h1>
+      <p id="description">
+        Thank you for taking the time to help us improve the platform
+      </p>
+      <div class="cont">
+        <form id="survey-form">
+          <div class="box">
+            <span for="name">Name: </span>
+            <input type="text" id="name" placeholder="ex. Rana Ameer" />
+          </div>
+          <div class="box">
+            <span for="email">Email: </span>
+            <input type="email" id="email" placeholder="ex. Rana@gmail.com" />
+          </div>
+          <div class="box">
+            <span for="age">Age: </span>
+            <input type="number" id="age" placeholder="ex. 26" />
+          </div>
+          <div class="box">
+            <span for="role" class="thespan">Choose an option:</span>
+
+            <select name="role" id="role">
+              <option>Student</option>
+              <option>Full time job</option>
+              <option>Full time learner</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <form>
+            <p>Would you recommend freeCodeCamp to a friend?</p>
+            <input type="radio" id="html" />
+              <label for="html">HTML</label><br />
+            <input type="radio" id="css" />
+              <label for="css">CSS</label><br />
+            <input type="radio" id="javascript" />
+              <label for="javascript">JavaScript</label>
+          </form>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
